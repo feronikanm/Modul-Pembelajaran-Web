@@ -3,8 +3,9 @@
 <br>
 
 <p align=center>
-<img src="images/logo-divisi.png" width=200>
+	<img src="images/logo-divisi.png" width=200>
+</p>
 
-<br><br>
-
-Disusun oleh KoLU Divisi Web
+<p align=center>
+	Disusun oleh KoLU Divisi Web
+</p>
