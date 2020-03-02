@@ -1,7 +1,5 @@
 # Modul 1 - WebDev 101, HTML & CSS
 
-<br>
-
 1. [ Pendahuluan Pemrograman Web]()
 
 2. [Hypertext Markup Language (HTML)]()
