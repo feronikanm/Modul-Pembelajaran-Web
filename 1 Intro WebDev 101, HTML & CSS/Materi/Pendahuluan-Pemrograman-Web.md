@@ -33,3 +33,6 @@ Domain adalah nama unik yang diberikan untuk mengidentifikasi alamat. Analogi ya
     - Perl
     - Node.JS
     - Ruby
+
+### Referensi
+- Pendahuluan Pemrograman Web Front End - CodePolitan.com. (n.d.). Retrieved March 2, 2020, from https://www.codepolitan.com/course/lesson/basic-html-dan-css/01-Pengenalan-HTML-dan-CSS/01-pendahuluan-pemrograman-web-front-end
