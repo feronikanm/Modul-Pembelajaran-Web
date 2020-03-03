@@ -116,7 +116,7 @@ Figure digunakan untuk menentukan konten yang berdiri sendiri, seperti ilustrasi
 </figure>
 ```
 
-### 3. "Type" Javascript
+### 3. "Type" Javascript & Link CSS
 Digunakan untuk menghubungkan file HTML dengan Javascript
 
 HTML5
