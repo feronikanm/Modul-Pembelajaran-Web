@@ -5,6 +5,7 @@
     - [Sifat display block]()
     - [Sifat display inline]()
     - [Sifat display inline-block]()
+    - [Sifat display none]()
 
 ## Display & Dimension
 
@@ -112,6 +113,26 @@ Contoh:
 <p>Ini teks <span>Paragraf</span></p>
 ```
 <img src="../images/contoh-display-inline-block-1.png">
+
+### D. Sifat display none
+Property display none apabila diterapkan pada sebuah elemen maka elemen tersebut akan disembunyikan dari web browser
+
+Contoh
+```html
+<style>
+    span { 
+        background: orange;
+        width:100px;
+        height:50px;
+        display: none;
+    }
+</style>
+
+<h1>Heading</h1>
+<p>Ini teks <span>Paragraf</span></p>
+```
+<img src="../images/contoh-display-none-1.png">
+
 
 ## Referensi
 - Display & Dimension - CodePolitan.com. (n.d.). Retrieved March 3, 2020, from https://www.codepolitan.com/course/lesson/basic-html-dan-css/02-Dasar-HTML-dan-CSS/04-display-dimension
