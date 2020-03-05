@@ -8,7 +8,24 @@
     - [Sifat display none]()
 - [Box Model & Overflow Handling]()
     - [Box Model]()
-
+        - [Margin]()
+        - [Padding]()
+        - [Border]()
+    - [Overflow Handling]()
+- [CSS Float]()
+- [CSS Position]()
+    - [Static]()
+    - [Relative]()
+    - [Absolute]()
+    - [Fixed]()
+- [CSS Selector]()
+    - [Selector Nama Tag]()
+        - [Koma pada Selector]()
+        - [Spasi pada Selector]()
+    - [Selector Spesifik]()
+    - [Selector Multi-Class]()
+    - [Selector dengan Atribut]()
+    - [Selector Pseudoclass]()
 <hr>
 
 ## Display & Dimension
@@ -454,3 +471,8 @@ p span {
 - Display & Dimension - CodePolitan.com. (n.d.). Retrieved March 3, 2020, from https://www.codepolitan.com/course/lesson/basic-html-dan-css/02-Dasar-HTML-dan-CSS/04-display-dimension
 - CSS display: inline vs inline-block - Stack Overflow. (n.d.). Retrieved March 3, 2020, from https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
 - boxmodel-image.png (377×340). (n.d.). Retrieved March 4, 2020, from https://www.codeproject.com/KB/HTML/567385/boxmodel-image.png
+- “CSS Selector - CodePolitan.com.” [Online]. Available: https://www.codepolitan.com/course/lesson/basic-html-dan-css/02-Dasar-HTML-dan-CSS/12-css-selector. [Accessed: 05-Mar-2020].
+- “CSS Position - CodePolitan.com.” [Online]. Available: https://www.codepolitan.com/course/lesson/basic-html-dan-css/02-Dasar-HTML-dan-CSS/08-css-position. [Accessed: 05-Mar-2020].
+- “Box Model & Overflow - CodePolitan.com.” [Online]. Available: https://www.codepolitan.com/course/lesson/basic-html-dan-css/02-Dasar-HTML-dan-CSS/06-box-model-overflow. [Accessed: 05-Mar-2020].
+- “overflow - CSS: Cascading Style Sheets | MDN.” [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow. [Accessed: 05-Mar-2020].
+- “margin - CSS: Cascading Style Sheets | MDN.” [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/margin. [Accessed: 05-Mar-2020].
