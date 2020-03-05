@@ -22,22 +22,24 @@
     - [Selector Nama Tag]()
         - [Koma pada Selector]()
         - [Spasi pada Selector]()
+    - [Selector dengan id dan class]()
     - [Selector Spesifik]()
     - [Selector Multi-Class]()
     - [Selector dengan Atribut]()
     - [Selector Pseudoclass]()
+
 <hr>
 
-## Display & Dimension
+## A) Display & Dimension
 
-### Pengenalan Tag div dan span
+### 1) Pengenalan Tag div dan span
 Pada tag div dan span tidak ada fungsi khusus seperti h1, p, img dan tag semantik lainnya. Tag div dan span biasanya digunakan untuk mengelompokkan elemen html lalu memberi style secara spesifik. 
 
 Perbedaan dari keduanya ialah tag div bersifat display block sedangkan tag span bersifat display inline
 
 <img src="../images/display.png">
 
-### Sifat display block
+### 2) Sifat display block
 - membuat baris baru saat dirender
 - Dapat diset lebar dan tingginya
 - Bila lebar tidak diset, maka lebar elemen akan memenuhi lebar dari parentnya.
@@ -77,7 +79,7 @@ Namun ketika diset lebar dan tingginya, maka lebarnya sesuai dengan yang sudah d
 ```
 <img src="../images/contoh-display-block-2.png">
 
-### Sifat display inline
+### 3) Sifat display inline
 - Tidak membuat baris baru saat dirender
 - Lebar dan tinggi sebesar konten yang ada di dalamnya
 - Lebar dan tingginya tidak dapat diatur
@@ -113,7 +115,7 @@ Ketika kita tambahkan witdh dan height pada kelas span, maka tidak berpengaruh p
 ```
 <img src="../images/contoh-display-inline-1.png">
 
-### Sifat display inline-block
+### 4) Sifat display inline-block
 - Tidak ada elemen html yang default bertipe inline-block
 - Nilai property display dapat diset manual menjadi inline-block
 - Sifat dasar sama dengan inline
@@ -135,7 +137,7 @@ Contoh:
 ```
 <img src="../images/contoh-display-inline-block-1.png">
 
-### Sifat display none
+### 5) Sifat display none
 Property display none apabila diterapkan pada sebuah elemen maka elemen tersebut akan disembunyikan dari web browser
 
 Contoh
@@ -154,9 +156,11 @@ Contoh
 ```
 <img src="../images/contoh-display-none-1.png">
 
-## Box Model & Overflow Handling
+<hr>
 
-### Box Model
+## B) Box Model & Overflow Handling
+
+### 1) Box Model
 Setiap elemen di halaman HTML direpresentasikan sebagai sebuah kotak. Kita bisa mengatur ukuran maupun posisi kotak tersebut.
 
 <img src="../images/boxmodel-ilustration.png">
@@ -166,7 +170,7 @@ Setiap elemen di halaman HTML direpresentasikan sebagai sebuah kotak. Kita bisa 
 - Padding<br>Jarak spasi antara border dan content. Padding bersifat transparan.
 - Content<br>Isi dari elemen, bisa berupa text atau elemen lain. Text, gambar atau elemen lainnya ditampilkan di bagian ini.
 
-#### Property margin
+#### 1.1) Property margin
 
 Nilai propertinya => px, %, auto.
 
@@ -201,7 +205,7 @@ Contoh:
 
 Info lebih lanjut mengenai property-property margin bisa ditemukan di https://developer.mozilla.org/en-US/docs/Web/CSS/margin
 
-#### Property Padding
+#### 1.2) Property Padding
 
 Nilai propertinya => px, %.
 
@@ -223,7 +227,7 @@ Contoh:
 
 Info lebih lanjut mengenai property-property padding bisa ditemukan di https://developer.mozilla.org/en-US/docs/Web/CSS/padding
 
-#### Property Border
+#### 1.3) Property Border
 
 ```css
 border : width style color;
@@ -263,7 +267,7 @@ Contoh:
 
 <img src="../images/border-1.png">
 
-### Overflow Handling
+### 2) Overflow Handling
 
 Apa yang harus kita lakukan apabila kita menemui suatu kondisi ketika konten kita mengalami overflow?
 
@@ -300,7 +304,7 @@ Lebih lengkapnya penanganan overflow bisa dilihat di sini https://developer.mozi
 
 <hr>
 
-## CSS Float
+## C) CSS Float
 
 CSS Float digunakan untuk memposisikan elemen dalam sebuat layout halaman website. Sebuah elemen bisa diposisikan seakan-akan berada mengapung diantara elemen setelahnya. Beberapa value yang digunakan untuk property float yaitu : left, right, none. Secara default float memiliki nilai none.
 
@@ -324,25 +328,25 @@ float: right;
 
 <hr>
 
-## CSS Position
+## D) CSS Position
 
 CSS Position itu terdiri dari 4 nilai, yaitu <strong>static, relative, absolute, dan fixed</strong>. Secara default, tag-tag yang kita buat sudah memiliki nilai <strong>position: static</strong>.
 
-### Static
+### 1) Static
 - Static adalah nilai default dari tiap-tiap elemen ketika tidak diberi properti position
 - Menggunakan position <strong>selain</strong> static (non-static), akan membuat sebuah elemen menjadi seolah olah berbeda dimensi dari elemen lainnya.
 - Elemen yang diberi position <strong>selain</strong> static dapat menggunakan properti top, left, bottom dan right untuk mengatur posisinya.
 
 <img src="../images/position-1.png">
 
-### Relative
+### 2) Relative
 - Ketika kita menggerakan elemen dengan posisi relative (menggunakan properti top, left. bottom dan right), ruang yang ditempati elemen tersebut masih ada
 - Ketika kita menggerakan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semula-nya
 - Jika kita memberi properti top: 0; dan left: 0; maka elemen tidak berubah posisinya.
 
 <img src="../images/position-2.png">
 
-### Absolute
+### 3) Absolute
 - Ketika kita menggerakan elemen dengan posisi absolute (menggunakan properti top, left, bottom dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada.
 - Ketika kita menggerakan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dan elemen parent-nya, selama elemen parent-nya memiliki posisi yang juga non-static.
 - Jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen-nya.
@@ -353,34 +357,34 @@ Jika Absolute tidak memiliki parent relative maka posisinya akan seperti berikut
 
 <img src="../images/position-4.png">
 
-### Fixed
+### 4) Fixed
 - Ketika kita menggerakan elemen dengan posisi fixed (menggunakan properti top, left, bottom dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada.
 - Jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya
 - Elemen akan 'terkunci' dan tidak bergerak dari posisinya meskipun halaman di-scroll
 
 <hr>
 
-## CSS Selector
+## E) CSS Selector
 Pada css terdapat selector yang digunakan untuk memilih elemen HTML yang akan dikenai style, pemilihan elemen menggunakan nama tag, nilai atribut, atau pola tertentu.
 
-### Selector Nama Tag
+### 1) Selector Nama Tag
 Semisal kita ingin mewarnai body maka langsung saja ketikan selector body, begitupun dengan h1, p atau yang lainnya.
 
-#### Koma pada Selector
+#### 1.1) Koma pada Selector
 ```css
 h1, h2, h3, p {
     color: #666;
 }
 ```
 
-#### Spasi pada Selector
+#### 1.2) Spasi pada Selector
 ```css
 p span {
     background-color: #7CFC00;
 }
 ```
 
-### Selector dengan id dan class
+### 2) Selector dengan id dan class
 ```css
 #higlight {
     background-color: yellow
@@ -391,7 +395,7 @@ p span {
 }
 ```
 
-### Selector Spesifik
+### 3) Selector Spesifik
 ```html
 <style>
   p.small {
@@ -409,7 +413,7 @@ p span {
 ```
 <img src="../images/selector-2.png">
 
-### Selector multi-class
+### 4) Selector multi-class
 ```html
 <style>
   .red{
@@ -427,7 +431,7 @@ p span {
 ```
 <img src="../images/selector-3.png">
 
-### Selector dengan Atribut
+### 5) Selector dengan Atribut
 ```html
 <style>
   input {
@@ -450,7 +454,7 @@ p span {
 ```
 <img src="../images/selector-4.png">
 
-### Selector Pseudoclass
+### 6) Selector Pseudoclass
 ```html
 <style>
 	div {
