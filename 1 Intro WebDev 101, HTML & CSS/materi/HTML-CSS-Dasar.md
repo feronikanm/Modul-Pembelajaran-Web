@@ -1,6 +1,6 @@
 # HTML dan CSS Dasar
 
-- [Display & Dimension]()
+- [Display & Dimension](#a-display--dimension)
     - [Pengenalan Tag div dan span]()
     - [Sifat display block]()
     - [Sifat display inline]()
