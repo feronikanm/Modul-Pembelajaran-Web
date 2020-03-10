@@ -1,3 +1,7 @@
+<p align="right">
+<strong>بِسْــــــــــــــمِ اللَّهِ الرَّحْمَنِ الرَّحِيم </strong>
+</p>
+
 # Modul 1 - WebDev 101, HTML & CSS
 
 1. [Pendahuluan Pemrograman Web](materi/Pendahuluan-Pemrograman-Web.md)
